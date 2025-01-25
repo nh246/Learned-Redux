@@ -14,7 +14,7 @@ function AddProduct() {
     formState: { errors },
   } = useForm();
 
-  console.log(errors)
+   if(errors) console.log(errors)
 
   const onSubmit = (data) =>{
      dispatch(addProduct(data))
