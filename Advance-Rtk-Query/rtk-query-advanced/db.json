@@ -2,11 +2,11 @@
   "users": [
     {
       "id": "1",
-      "name": "John Max",
-      "email": "johndoe@max.com",
-      "age": "30",
-      "gender": "Male",
-      "city": "Dhaka",
+      "name": "John huda",
+      "email": "johndoe@khuda.com",
+      "age": "305",
+      "gender": "Mal",
+      "city": "kaka",
       "isActive": true
     },
     {
@@ -20,11 +20,11 @@
     },
     {
       "id": "4",
-      "name": "Emily Davis",
-      "email": "emilydavis@example.com",
-      "age": 25,
+      "name": "Emily wills",
+      "email": "emilywils@example.com",
+      "age": "29",
       "gender": "Female",
-      "city": "Houston",
+      "city": "L.A",
       "isActive": true
     },
     {
@@ -37,28 +37,10 @@
       "isActive": false
     },
     {
-      "id": "6",
-      "name": "Sophia Brown",
-      "email": "sophiabrown@example.com",
-      "age": 22,
-      "gender": "Female",
-      "city": "Philadelphia",
-      "isActive": true
-    },
-    {
-      "id": "289e",
-      "name": "User 10",
-      "email": "user@10.com",
-      "age": "30",
-      "gender": "Female",
-      "city": "Dhaka",
-      "isActive": false
-    },
-    {
-      "id": "7e4e",
-      "name": "Nazmul Hossain",
-      "email": "gojosaturu1223355@protonmail.com",
-      "age": "21",
+      "id": "e179",
+      "name": "fdfdf",
+      "email": "cdcc@gmail.com",
+      "age": "22",
       "gender": "boy",
       "city": "Dhaka",
       "isActive": false
