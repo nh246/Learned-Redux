@@ -6,15 +6,33 @@ const userApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: 'http://localhost:3000'
     }),
+    tagTypes:['user'],
     endpoints: (builder) => ({
         getUsers: builder.query({
-            query: () => '/users'
+            query: () => '/users',
+            providesTags: ['user']
+        }),
+        // adding new user
+        addUser: builder.mutation({
+            query: (data) => ({
+                url: '/users',
+                method: 'POST',
+                body: data
+            }),
+            invalidatesTags: ['user']
+        }),
+        deleteUser: builder.mutation({
+            query: (id) => ({
+                url: `/users/${id}`,
+                method: 'DELETE'
+            }),
+            invalidatesTags: ['user']
         })
     })
 })
 
 
 
-export const { useGetUsersQuery,}= userApi
+export const { useGetUsersQuery, useAddUserMutation, useDeleteUserMutation}= userApi
 
 export default userApi

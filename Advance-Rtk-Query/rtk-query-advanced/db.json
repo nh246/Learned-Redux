@@ -10,15 +10,6 @@
       "isActive": true
     },
     {
-      "id": "2",
-      "name": "Mamun",
-      "email": "mamun@gmail.com",
-      "age": "23",
-      "gender": "Male",
-      "city": "Dhaka",
-      "isActive": true
-    },
-    {
       "id": "3",
       "name": "Michael Johnson",
       "email": "michaeljohnson@example.com",
@@ -60,6 +51,15 @@
       "email": "user@10.com",
       "age": "30",
       "gender": "Female",
+      "city": "Dhaka",
+      "isActive": false
+    },
+    {
+      "id": "7e4e",
+      "name": "Nazmul Hossain",
+      "email": "gojosaturu1223355@protonmail.com",
+      "age": "21",
+      "gender": "boy",
       "city": "Dhaka",
       "isActive": false
     }
