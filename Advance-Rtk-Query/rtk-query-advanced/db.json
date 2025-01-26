@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Max",
+      "email": "johndoe@max.com",
+      "age": "30",
+      "gender": "Male",
+      "city": "Dhaka",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Mamun",
+      "email": "mamun@gmail.com",
+      "age": "23",
+      "gender": "Male",
+      "city": "Dhaka",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Michael Johnson",
+      "email": "michaeljohnson@example.com",
+      "age": 41,
+      "gender": "Male",
+      "city": "Chicago",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Emily Davis",
+      "email": "emilydavis@example.com",
+      "age": 25,
+      "gender": "Female",
+      "city": "Houston",
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "name": "David Martinez",
+      "email": "davidmartinez@example.com",
+      "age": 30,
+      "gender": "Male",
+      "city": "Phoenix",
+      "isActive": false
+    },
+    {
+      "id": "6",
+      "name": "Sophia Brown",
+      "email": "sophiabrown@example.com",
+      "age": 22,
+      "gender": "Female",
+      "city": "Philadelphia",
+      "isActive": true
+    },
+    {
+      "id": "289e",
+      "name": "User 10",
+      "email": "user@10.com",
+      "age": "30",
+      "gender": "Female",
+      "city": "Dhaka",
+      "isActive": false
+    }
+  ]
+}
