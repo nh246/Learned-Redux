@@ -1,14 +1,11 @@
-import { useGetAllPostsQuery } from "./redux/features/post/postApi"
+import { Outlet } from "react-router";
 
 function App() {
-
-  const {data, isLoading , error}= useGetAllPostsQuery()
-
-  console.log(data)
-
   return (
-    <div>App</div>
-  )
+    <div>
+      <Outlet />
+    </div>
+  );
 }
 
-export default App
+export default App;
